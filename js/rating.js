@@ -24,7 +24,7 @@ function updateRating(index) {
       items.classList.remove("active");
     }
     if (index <= 2) {
-      text.innerHTML = ` UNSATISFIED! sorry for the bad service we will try to improve our performace.`;
+      text.innerHTML = `UNSATISFIED! sorry for the bad service we will try to improve our performace.`;
     } else {
       text.innerHTML = `SATISFIED! thanks for the feedback.`;
     }
